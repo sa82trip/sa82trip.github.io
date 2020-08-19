@@ -14,8 +14,10 @@ last_modified_at: 2020-08-19 20:44
 마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
 
 이렇게 변수를 사용할 수 있다.
+여기서 \"\\\"는 없다고 생각하고 봐야함. 
+현재 마크다운에서 이스케이프가 안되서 일단 이렇게 적어놓음
 
-```xml
+```javascript
 이런식으로 사용가능하다
-\{{title}} {{last_modified_at}}\
+ {{page.title}} {{page.last_modified_at}}
 ```
