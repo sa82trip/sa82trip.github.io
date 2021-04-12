@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>vim-gil&#39;s static devlog</title>
+    <link>https://sa82trip.github.io/</link>
+    <description>Recent content on vim-gil&#39;s static devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Apr 2021 20:42:41 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Apr 2021 20:42:41 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First_with_hugo</title>
-      <link>http://example.org/posts/first_with_hugo/</link>
+      <link>https://sa82trip.github.io/posts/first_with_hugo/</link>
       <pubDate>Mon, 12 Apr 2021 20:42:41 +0900</pubDate>
       
-      <guid>http://example.org/posts/first_with_hugo/</guid>
+      <guid>https://sa82trip.github.io/posts/first_with_hugo/</guid>
       <description>is this right for making content with hugo? if I succeed with this procedure I will do this with org mode too!!</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://sa82trip.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 12 Apr 2021 20:32:55 +0900</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://sa82trip.github.io/posts/my-first-post/</guid>
       <description></description>
     </item>
     
