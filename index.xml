@@ -47,45 +47,6 @@ using tramp example #+begin_src sh :dir /ssh:{hostname}:~/ ls -lsa #+end_src wor
     </item>
     
     <item>
-      <title>new year&#39;s resolution</title>
-      <link>https://sa82trip.github.io/post/new-years-resolution/</link>
-      <pubDate>Tue, 01 Feb 2022 09:07:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/new-years-resolution/</guid>
-      <description>22년에 내가 해야할 것들  연애 프로그래밍 공부  iOS Lisp 계열 Java    java def foo(x): if x&amp;gt;0: return x+1 else: return x-1 foo(5) </description>
-    </item>
-    
-    <item>
-      <title>interview_questions</title>
-      <link>https://sa82trip.github.io/post/interview-questions/</link>
-      <pubDate>Tue, 22 Jun 2021 10:55:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/interview-questions/</guid>
-      <description>questions
-TODO TOTAL [0/2] TODO Basic Interview Questions [10/33]   Tell me about yourself.
-Hello, my name is Joonsung Gil. First of all, I want to say thank you for giving me a chace to have an interview with you guys. 저는 관심가는 기술이나, 관심가는 지역을 떠돌아 다니는 것을 좋아합니다. 그러다 보면 자신도 모르게 알게 되는 것들이 많거든요. I like to wander around the technology I&#39;m interested in, or the area I&#39;m interested in.</description>
-    </item>
-    
-    <item>
-      <title>emacs_lisp_001_conventions</title>
-      <link>https://sa82trip.github.io/post/emacs-lisp-001-conventions/</link>
-      <pubDate>Sat, 19 Jun 2021 11:04:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/emacs-lisp-001-conventions/</guid>
-      <description>(type-of (record &amp;#39;foo)) conventions</description>
-    </item>
-    
-    <item>
-      <title>front_end_questions</title>
-      <link>https://sa82trip.github.io/post/front-end-questions/</link>
-      <pubDate>Tue, 15 Jun 2021 09:52:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/front-end-questions/</guid>
-      <description>FrontEnd 예상 질문 리스트
-Event Delegation과 막는방법 ★★★★ bubbling &amp;amp; capturing 컨테이너에 이벤트핸들러를 할당하고 자식 요소를 클릭 했을 시에 버블링으로 이벤트가 올라가는 것을 이용 기본동작 막는법 event.preventDefault() 콜백함수에 event.preventDefault()을 사용하면 브라우저의 기본 동작을 막을 수 있다. event.preventDefault()을 통해서 기본동작을 멈춘 상태에서 event.defaultPrevented의 값은 true된다. 이것을 이용해서 추가적인 조건도 걸어줄 수있다.  return false &#34; onclick=&#34;return handleClick()&#34;네이버  function(event) { handleClick()} function handleClick() { console.log(&amp;ldquo;event 막기&amp;rdquo;); return false;}  화살표함수와 this 바인딩 ★★★ refer this는 일반적으로 함수자신을 뜻하거나 class를 뜻함 arrow function은 this가 없다.</description>
-    </item>
-    
-    <item>
       <title>multiple_configs_of_emacs_on_mac</title>
       <link>https://sa82trip.github.io/post/multiple-configs-of-emacs-on-mac/</link>
       <pubDate>Sat, 12 Jun 2021 12:50:00 +0900</pubDate>
@@ -108,30 +69,6 @@ Event Delegation과 막는방법 ★★★★ bubbling &amp;amp; capturing 컨�
     </item>
     
     <item>
-      <title>alorithm_study</title>
-      <link>https://sa82trip.github.io/post/alorithm-study/</link>
-      <pubDate>Fri, 28 May 2021 19:52:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/alorithm-study/</guid>
-      <description>algorithm
-완주하지 못한 선수 function solution(participant, completion) { var answer = &amp;#39;&amp;#39;; const all = participant.sort(); const finished = completion.sort(); for (let i=0;i&amp;lt;all.length;i++) { if(all[i] !== finished[i]){ answer = all[i]; } } console.log(answer); return answer; } solution([&amp;#34;leo&amp;#34;, &amp;#34;kiki&amp;#34;, &amp;#34;eden&amp;#34;], [&amp;#34;eden&amp;#34;, &amp;#34;kiki&amp;#34;])   reduce 다시 한번 연습 인자가 4개: accumulator, current value, index, initial value
-const array1 = [2,1]; console.log(array1.reduce((acc, curr, index)=&amp;gt; { return acc*(curr+1);}, 1));   여기서 중요한 부분 하나는, initial value에 들어가는 값이 acc값에 처음 들어가는 값이라는 것</description>
-    </item>
-    
-    <item>
-      <title>write_code_for_commenting_feature_with_vanilla_javascript</title>
-      <link>https://sa82trip.github.io/post/write-code-for-commenting-feature-with-vanilla-javascript/</link>
-      <pubDate>Wed, 26 May 2021 14:24:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/write-code-for-commenting-feature-with-vanilla-javascript/</guid>
-      <description>simple comment with vanilla js 프론트엔드 관련 라이브러리 사용을 배제하고 js, css, html만 이용해서 comment기능을 구현해보았습니다. js로 dom tree를 manipulate하는 것이 예전보다는 많이 편해진 것 같아서 즐겁게 코딩할 수 있었습니다. 현재 등록되어있는 금칙어는 아래와 같습니다.
-  실행법   git clone
-git clone https://github.com/sa82trip/comment_with_vanilla_js.git or download zip file
-    index.html 실행
-  만약 http-server가 깔려있다면 clone하거나 다운 받아서 zip파일은 푼 디렉터리에서 아래 명령어 실행후 브라우져에서 http://localhost:8080/ 입력 후 엔터.</description>
-    </item>
-    
-    <item>
       <title>aws_lambda</title>
       <link>https://sa82trip.github.io/post/aws_lambda/</link>
       <pubDate>Sat, 22 May 2021 20:08:00 +0900</pubDate>
@@ -139,67 +76,6 @@ git clone https://github.com/sa82trip/comment_with_vanilla_js.git or download zi
       <guid>https://sa82trip.github.io/post/aws_lambda/</guid>
       <description>aws lambda 비정기 공부회에서 HKS상이 공유한 내용 정리  Faas (Function As A Service)이다.  Saas의 다음 단계   장점:  쓴만큼 낸다 백만콜에 20센트정도 auto scailing 높은 가용성   단점:  cold boot가 있다. 속도가 ec2보다 약간 느릴 수 있다. Migrating is not that simple and easy    간단 구성법   aws console page 검색창에서 lamda를 검색한다
   함수생성 버튼을 누르고 생성을 시작한다</description>
-    </item>
-    
-    <item>
-      <title>org_mode</title>
-      <link>https://sa82trip.github.io/post/org-mode/</link>
-      <pubDate>Fri, 21 May 2021 19:23:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/org-mode/</guid>
-      <description>org_mode
-이미지 넣을 때 caption 넣기 #+attr_html: :caption detailed caption #+attr_html: :class foo :width 200px html을 직접 넣어서 class를 주고 style을 설정할 수도 있음
-#+html: &amp;lt;style&amp;gt; .foo img {width: 12rem; margin: auto;}&amp;lt;/style&amp;gt; #+html: &amp;lt;style&amp;gt; .foo p {width: 15rem; margin: auto;}&amp;lt;/style&amp;gt; image를 넣는 코드위에 아래의 code를 설정
-#+html: &amp;lt;style&amp;gt; .foo img {width: 12rem; margin: auto;}&amp;lt;/style&amp;gt; #+html: &amp;lt;style&amp;gt; .foo p {width: 15rem; margin: auto;}&amp;lt;/style&amp;gt; #+attr_html: :caption detailed caption #+attr_html: :class foo :width 200px </description>
-    </item>
-    
-    <item>
-      <title>javascript_how_to_call_function</title>
-      <link>https://sa82trip.github.io/post/javascript-how-to-call-function/</link>
-      <pubDate>Mon, 17 May 2021 22:52:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/javascript-how-to-call-function/</guid>
-      <description>how to call function!   normal way
-function shout(phrase){ console.log(phrase) } shout(&amp;#34;I Love You!!!&amp;#34;) #+RESULTS: : I Love You!!! : undefined   call func as member function
-const tarzan = { shout: function (phrase) { console.log(phrase); } } tarzan.shout(&amp;#34;Yahooooooooooooooo!&amp;#34;) #+RESULTS: : Yahooooooooooooooo! : undefined   call and apply from Function.prototype
-console.log(Function.prototype.call) console.log(&amp;#34;======================&amp;#34;) console.log(Function.prototype.apply) #+RESULTS: : [Function: call] : ====================== : [Function: apply] : undefined function shout(phrase){ console.log(phrase); } shout.</description>
-    </item>
-    
-    <item>
-      <title>clojure_programming_002</title>
-      <link>https://sa82trip.github.io/post/clojure-programming-002/</link>
-      <pubDate>Mon, 17 May 2021 20:26:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/clojure-programming-002/</guid>
-      <description>braveclojure.com를 읽으며 공부하며 정리해 놓고 있습니다.
-clojure 관련 posts
- clojure_programming  naming with &amp;ldquo;def&amp;rdquo; def를 이용해서 vector에 이름 정하기 clojure에서는 name에 vector를 binding 한다고 표현합니다.
-(def my-favorite-devices [&amp;#34;magic keyboard&amp;#34;, &amp;#34;Magic Trackpad&amp;#34;, &amp;#34;AOC monitor&amp;#34;]) my-favorite-devices #+RESULTS: | #&amp;#39;user/my-favorite-devices | | [&amp;#34;magic keyboard&amp;#34; &amp;#34;Magic Trackpad&amp;#34; &amp;#34;AOC monitor&amp;#34;] | 다른 언어에서는 assign이라고 표현하고 variable에 몇번의 re-assign이 가능한 언어들도 있지만 clojure는 그렇지 않습니다.
-(def severity :mild) (def error-message &amp;#34;This is Soooooo~&amp;#34;) (if (= severity :mild) (def error-message (str error-message &amp;#34;Hot!</description>
-    </item>
-    
-    <item>
-      <title>why_we_need_immutable</title>
-      <link>https://sa82trip.github.io/post/why-we-need-immutable/</link>
-      <pubDate>Sat, 15 May 2021 22:22:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/why-we-need-immutable/</guid>
-      <description>why?</description>
-    </item>
-    
-    <item>
-      <title>org_handling_source_code_block</title>
-      <link>https://sa82trip.github.io/post/org-handling-source-code-block/</link>
-      <pubDate>Sat, 15 May 2021 20:47:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/org-handling-source-code-block/</guid>
-      <description>org source block recap source block끼리 variable보내기
-
-const passingVariable = &amp;#34;I will be passed&amp;#34; console.log(passingVariable) return passingVariable 실제 org 파일에 적은코드
-#+name: passingVariable #+begin_src js const passingVariable = &amp;#34;I will be passed&amp;#34; console.log(passingVariable) return passingVariable #+end_src console.log(passedVariable); 실제 org 파일에 적은코드
-#+header: :var passedVariable=passingVariable #+begin_src js console.log(passedVariable); #+end_src 결과값
-#+RESULTS: : I will be passed : &amp;#39;I will be passed&amp;#39; : undefined 
-   1     2   3   4</description>
     </item>
     
     <item>
@@ -234,32 +110,6 @@ doom emacs clojure mode에서 structure safe하게 coding하기 cleverparens라�
 ;; in ~/.doom.d/packages.el (package! evil-cleverparens) ;; in ~/.doom.d/config.el (add-hook &amp;#39;lisp-mode-hook #&amp;#39;evil-cleverparens-mode) 위의 코드 출처
 실제 코딩 시작 Syntax(문법) Forms 모든 Clojure code는 Uniform structure로 적혀있다. Clojure는 두 종류를 인식한다
  Literal representations of data structures (numbers, strings, maps, and vectors) Operations   We use the term form to refer to valid code. I’ll also sometimes use expression to refer to Clojure forms.</description>
-    </item>
-    
-    <item>
-      <title>about_emacs</title>
-      <link>https://sa82trip.github.io/post/about_emacs/</link>
-      <pubDate>Tue, 11 May 2021 23:58:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/about_emacs/</guid>
-      <description>keybindings brave clojure
-window 관련  &amp;nbsp;Keys&amp;nbsp;&amp;nbsp;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Description&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &amp;nbsp;C-x&amp;nbsp;o&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  &amp;nbsp;witch&amp;nbsp;cursor&amp;nbsp;to&amp;nbsp;another&amp;nbsp;window.&amp;nbsp;Try&amp;nbsp;this&amp;nbsp;now&amp;nbsp;to&amp;nbsp;switch&amp;nbsp;between&amp;nbsp;your&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-Clojure&amp;nbsp;file&amp;nbsp;and&amp;nbsp;the&amp;nbsp;REPL.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &amp;nbsp;C-x&amp;nbsp;1&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  Delete&amp;nbsp;all&amp;nbsp;other&amp;nbsp;windows,&amp;nbsp;leaving&amp;nbsp;only&amp;nbsp;the&amp;nbsp;current&amp;nbsp;window&amp;nbsp;in&amp;nbsp;the&amp;nbsp;frame.&amp;nbsp;
-This&amp;nbsp;doesn’t&amp;nbsp;close&amp;nbsp;your&amp;nbsp;buffers,&amp;nbsp;and&amp;nbsp;it&amp;nbsp;won’t&amp;nbsp;cause&amp;nbsp;you&amp;nbsp;to&amp;nbsp;lose&amp;nbsp;any&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-work.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &amp;nbsp;C-x&amp;nbsp;2&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  &amp;nbsp;Split&amp;nbsp;frame&amp;nbsp;above&amp;nbsp;and&amp;nbsp;below.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &amp;nbsp;C-x&amp;nbsp;3&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  &amp;nbsp;Split&amp;nbsp;frame&amp;nbsp;side&amp;nbsp;by&amp;nbsp;side.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &amp;nbsp;C-x&amp;nbsp;0&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  &amp;nbsp;Delete&amp;nbsp;current&amp;nbsp;window.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    parens 관련 lisp like languages need to special key bindings for handling parens(able to do Evil Safe Structural Editing) evil-cleverparens</description>
     </item>
     
     <item>
