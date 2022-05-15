@@ -1,2 +1,0 @@
-# sa82trip.github.io
-test
