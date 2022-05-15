@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>es6 on DP&#39;s place</title>
+    <link>https://sa82trip.github.io/tags/es6/</link>
+    <description>Recent content in es6 on DP&#39;s place</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 13 May 2021 17:57:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js_es2015</title>
+      <link>https://sa82trip.github.io/post/js-es2015/</link>
+      <pubDate>Thu, 13 May 2021 17:57:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/js-es2015/</guid>
+      <description>앞으로 es6에서 달라진 새로운 점들을 하나둘 정리 해 놓으려고 합니다.
+ 001 const, let에 대해서  001 const, let에 대해서 Immutable variable 지원  const는 재할당이 불가능한 변수를 선언할 때 사용합니다. const는 block scope를 갖습니다.   const immutableText = &amp;#34;can&amp;#39;t be changed!!&amp;#34; immutableText = 123 #+RESULTS: immutableText = 123}())); ^ TypeError: Assignment to constant variable. but 객체나, 어레이등은 변경이 가능합니다&amp;hellip; 정확히 이야기 하면 re-asign(재할당)은 불가능 하지만 property는 변경이 가능합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

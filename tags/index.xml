@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on DP&#39;s place</title>
+    <link>https://sa82trip.github.io/tags/</link>
+    <description>Recent content in Tags on DP&#39;s place</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 03 Apr 2022 20:50:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>https://sa82trip.github.io/tags/emacs/</link>
+      <pubDate>Sun, 03 Apr 2022 20:50:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://sa82trip.github.io/tags/javascript/</link>
+      <pubDate>Mon, 17 May 2021 22:52:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clojure</title>
+      <link>https://sa82trip.github.io/tags/clojure/</link>
+      <pubDate>Mon, 17 May 2021 20:26:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>es6</title>
+      <link>https://sa82trip.github.io/tags/es6/</link>
+      <pubDate>Thu, 13 May 2021 17:57:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>core</title>
+      <link>https://sa82trip.github.io/tags/core/</link>
+      <pubDate>Thu, 13 May 2021 00:58:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>essential</title>
+      <link>https://sa82trip.github.io/tags/essential/</link>
+      <pubDate>Thu, 13 May 2021 00:58:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/essential/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax</title>
+      <link>https://sa82trip.github.io/tags/syntax/</link>
+      <pubDate>Wed, 12 May 2021 10:50:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keybindings</title>
+      <link>https://sa82trip.github.io/tags/keybindings/</link>
+      <pubDate>Tue, 11 May 2021 23:58:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/keybindings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org</title>
+      <link>https://sa82trip.github.io/tags/org/</link>
+      <pubDate>Mon, 10 May 2021 16:40:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://sa82trip.github.io/tags/programming/</link>
+      <pubDate>Mon, 10 May 2021 10:37:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://sa82trip.github.io/tags/blogging/</link>
+      <pubDate>Fri, 07 May 2021 23:30:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://sa82trip.github.io/tags/hugo/</link>
+      <pubDate>Fri, 07 May 2021 23:30:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knowhow</title>
+      <link>https://sa82trip.github.io/tags/knowhow/</link>
+      <pubDate>Fri, 07 May 2021 23:30:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/tags/knowhow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

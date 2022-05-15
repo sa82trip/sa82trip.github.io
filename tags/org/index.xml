@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>org on DP&#39;s place</title>
+    <link>https://sa82trip.github.io/tags/org/</link>
+    <description>Recent content in org on DP&#39;s place</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 10 May 2021 16:40:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>org_babel</title>
+      <link>https://sa82trip.github.io/post/org-babel/</link>
+      <pubDate>Mon, 10 May 2021 16:40:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/org-babel/</guid>
+      <description>org mode에서 여러 언어의 source code를 다룰 수 있다 (이로 인해서 literate programming이 가능해진다)
+  clojure를 org파일에서 사용하려면 org-babel-clojure-backend를 &amp;lsquo;cider로 설정해준다
+  org에서 clojure 사용해보기
+  기본적인 연산
+(+ 1 4) 5   Clojure vector
+[1 2 3 4]  [1 2 3 4]
+   Clojure map
+(def small-map {:a 2 :b 4 :c 8}) (:b small-map)     #&amp;lsquo;user/small-map     4         typescript 사용해보기</description>
+    </item>
+    
+  </channel>
+</rss>

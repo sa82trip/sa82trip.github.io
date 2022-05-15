@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>knowhow on DP&#39;s place</title>
+    <link>https://sa82trip.github.io/tags/knowhow/</link>
+    <description>Recent content in knowhow on DP&#39;s place</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 07 May 2021 23:30:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/knowhow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I learned while bloggin with hugo with org</title>
+      <link>https://sa82trip.github.io/post/what-i-learned-while-bloggin-with-hugo-with-org/</link>
+      <pubDate>Fri, 07 May 2021 23:30:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/what-i-learned-while-bloggin-with-hugo-with-org/</guid>
+      <description>&lt;p&gt;블로그를 쓰면서 알게 된 것들 이것저것&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

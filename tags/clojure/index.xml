@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Clojure on DP&#39;s place</title>
+    <link>https://sa82trip.github.io/tags/clojure/</link>
+    <description>Recent content in Clojure on DP&#39;s place</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 17 May 2021 20:26:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clojure_programming_002</title>
+      <link>https://sa82trip.github.io/post/clojure-programming-002/</link>
+      <pubDate>Mon, 17 May 2021 20:26:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/clojure-programming-002/</guid>
+      <description>braveclojure.com를 읽으며 공부하며 정리해 놓고 있습니다.
+clojure 관련 posts
+ clojure_programming  naming with &amp;ldquo;def&amp;rdquo; def를 이용해서 vector에 이름 정하기 clojure에서는 name에 vector를 binding 한다고 표현합니다.
+(def my-favorite-devices [&amp;#34;magic keyboard&amp;#34;, &amp;#34;Magic Trackpad&amp;#34;, &amp;#34;AOC monitor&amp;#34;]) my-favorite-devices #+RESULTS: | #&amp;#39;user/my-favorite-devices | | [&amp;#34;magic keyboard&amp;#34; &amp;#34;Magic Trackpad&amp;#34; &amp;#34;AOC monitor&amp;#34;] | 다른 언어에서는 assign이라고 표현하고 variable에 몇번의 re-assign이 가능한 언어들도 있지만 clojure는 그렇지 않습니다.
+(def severity :mild) (def error-message &amp;#34;This is Soooooo~&amp;#34;) (if (= severity :mild) (def error-message (str error-message &amp;#34;Hot!</description>
+    </item>
+    
+    <item>
+      <title>clojure_programming</title>
+      <link>https://sa82trip.github.io/post/clojure-programming/</link>
+      <pubDate>Wed, 12 May 2021 10:50:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/clojure-programming/</guid>
+      <description>001
+doom emacs clojure mode에서 structure safe하게 coding하기 cleverparens라는 package를 이용하면 된다.
+;; in ~/.doom.d/packages.el (package! evil-cleverparens) ;; in ~/.doom.d/config.el (add-hook &amp;#39;lisp-mode-hook #&amp;#39;evil-cleverparens-mode) 위의 코드 출처
+실제 코딩 시작 Syntax(문법) Forms 모든 Clojure code는 Uniform structure로 적혀있다. Clojure는 두 종류를 인식한다
+ Literal representations of data structures (numbers, strings, maps, and vectors) Operations   We use the term form to refer to valid code. I’ll also sometimes use expression to refer to Clojure forms.</description>
+    </item>
+    
+    <item>
+      <title>beginning of Clojure</title>
+      <link>https://sa82trip.github.io/post/beginning-of-clojure/</link>
+      <pubDate>Mon, 10 May 2021 10:37:00 +0900</pubDate>
+      
+      <guid>https://sa82trip.github.io/post/beginning-of-clojure/</guid>
+      <description>&lt;h2 id=&#34;clojure란&#34;&gt;Clojure란?&lt;/h2&gt;
+&lt;p&gt;Rich Hickey가 만든 Lisp의 방언격의 함수형 프로그래밍 언어.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
