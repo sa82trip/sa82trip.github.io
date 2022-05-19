@@ -6,20 +6,7 @@
     <description>Recent content in Clojure on DP&#39;s place</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 17 May 2021 20:26:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>clojure_programming_002</title>
-      <link>https://sa82trip.github.io/post/clojure-programming-002/</link>
-      <pubDate>Mon, 17 May 2021 20:26:00 +0900</pubDate>
-      
-      <guid>https://sa82trip.github.io/post/clojure-programming-002/</guid>
-      <description>braveclojure.com를 읽으며 공부하며 정리해 놓고 있습니다.
-clojure 관련 posts
- clojure_programming  naming with &amp;ldquo;def&amp;rdquo; def를 이용해서 vector에 이름 정하기 clojure에서는 name에 vector를 binding 한다고 표현합니다.
-(def my-favorite-devices [&amp;#34;magic keyboard&amp;#34;, &amp;#34;Magic Trackpad&amp;#34;, &amp;#34;AOC monitor&amp;#34;]) my-favorite-devices #+RESULTS: | #&amp;#39;user/my-favorite-devices | | [&amp;#34;magic keyboard&amp;#34; &amp;#34;Magic Trackpad&amp;#34; &amp;#34;AOC monitor&amp;#34;] | 다른 언어에서는 assign이라고 표현하고 variable에 몇번의 re-assign이 가능한 언어들도 있지만 clojure는 그렇지 않습니다.
-(def severity :mild) (def error-message &amp;#34;This is Soooooo~&amp;#34;) (if (= severity :mild) (def error-message (str error-message &amp;#34;Hot!</description>
-    </item>
-    
+    <lastBuildDate>Wed, 12 May 2021 10:50:00 +0900</lastBuildDate><atom:link href="https://sa82trip.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>clojure_programming</title>
       <link>https://sa82trip.github.io/post/clojure-programming/</link>
