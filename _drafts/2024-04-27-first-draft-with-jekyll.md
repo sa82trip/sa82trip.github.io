@@ -1,9 +1,9 @@
 ---
-title: 첫 포스트.
-date: 2024-04-26 17:00:00 +0800
+title: first draft
+date: 2024-04-28 17:00:00 +0800
 categories: [feeling, thought]
-tags: [writing, test]     # TAG names should always be lowercase
-# author: Dev_Joon
+tags: [draft, test]     # TAG names should always be lowercase
+# author: Dev Joon
 pin: true
 ---
 # 블로그 시작하면서 필요한 것들 
