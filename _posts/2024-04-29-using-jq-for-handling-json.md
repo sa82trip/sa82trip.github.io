@@ -7,7 +7,7 @@ tags: [json, tool]     # TAG names should always be lowercase
 pin: true
 toc: true
 ---
-# jq로 json객체 보기 좋게 처리하기
+# jq로 json객체 보기 좋게 처리하기  
 
 ```json
 {"name":"DEV"}
@@ -16,3 +16,6 @@ toc: true
 
 
 jq는 후처리기 이다.
+
+아주 큰 json에서 특정 값을 뽑아내야하거나, 현재 보고 있는 json의 attr의 수가 몇개인지 알고 싶을 때 사용하면 좋다.
+
